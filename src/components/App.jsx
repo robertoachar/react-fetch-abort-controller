@@ -27,8 +27,10 @@ class App extends Component {
   }
 
   handleAbort() {
-    this.controller.abort();
-    this.setState({ status: 'aborted' });
+    if (this.controller) {
+      this.controller.abort();
+      this.setState({ status: 'aborted' });
+    }
   }
 
   render() {
