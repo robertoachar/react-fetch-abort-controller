@@ -1,9 +1,0 @@
-{
-  "@robertoachar/generator-react": {
-    "promptValues": {
-      "name": "Roberto Achar",
-      "email": "robertoachar@gmail.com",
-      "username": "robertoachar"
-    }
-  }
-}
